@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+
+
+/* app css stylesheet */
+
+html, body {
+  background: #E4EBF1;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 7px;
+  padding: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #222;
+}
+
+h3 {
+  margin: 7px 5px 0 5px;
+  padding: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 7px;
+  padding: 5px;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 1.2px;
+  color: #444;
+}
+
+.small {
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.panel {
+  background: #fff;
+  border-radius: 6px;
+}
+
+.main {
+  display: flex;
+  height: 100%;
+  /*margin: 10px;*/
+}
+
+.left {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  height: calc(100% - 20px);
+  margin: 10px 0 10px 10px;
+}
+
+.right {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  height: calc(100% - 20px);
+  margin: 10px 10px 10px 0;
+}
+
+.intro {
+  flex: 0 1 200px;
+  margin: 10px;
+}
+
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin: 10px;
+  color: #919191;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.chart-wrapper {
+  flex: 1;
+  margin: 10px;
+}
+
+.chart-controller {
+  height: 60px;
+}
+
+.button-wrapper {
+  display: flex;
+  /*justify-content: space-between;*/
+}
+
+button {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin: 10px 10px;
+  color: #eee;
+  background-color: #97A3B0;
+  border: 0 none;
+  border-radius: 3px;
+  cursor: pointer;
+  min-width: 90px;
+}
+
+button:first-child {
+  margin-left: 15px;
+}
+
+button:last-child {
+  margin-right: 15px;
+}
+
+button:hover, button:focus {
+  color: #fff;
+  background-color:#A0B3C8;
+}
+
+.nc-bar-g-0 {
+  fill: #fff;
+}
+
+.nc-bar-g-1 {
+  fill: #A9B1D8;
+}
+
+.nc-bar-g-1 > .eu {
+  fill: #EDCA8E;
+}
+
+.axis {
+  font-size: 14px;
+}
+
+.axis text {
+  fill: #555;
+}
+
+.y-axis-group path,
+.y-axis-group line,
+.x-axis-group path,
+.x-axis-group line {
+  fill: none;
+  stroke: #333;
+  shape-rendering: crispEdges;
+}
+
+.y-axis-group line {
+  stroke: #fff;
+}
