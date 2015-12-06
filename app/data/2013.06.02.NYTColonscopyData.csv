@@ -1,0 +1,32 @@
+City,State,Low,High
+Seattle,WA,911,4156
+Billings,MT,1712,5978
+San Francisco,CA,905,4849
+Los Angeles,CA,697,5559
+San Diego,CA,869,2041
+Phoenix,AZ,731,3464
+Salt Lake City,UT,665,2862
+Cheyenne,WY,1207,4190
+Denver,CO,796,4228
+Dallas-Fort Worth,TX,915,5902
+Austin,TX,835,7471
+San Antonio,TX,719,5665
+Houston,TX,742,4726
+Kansas City,KS/MO?,752,3540
+Minn - St Paul,Minn - St Paul,792,4090
+Milwaukee,WI,940,2826
+Chicago,IL,769,4650
+St Louis,MO,799,5012
+Indianapolis,IN,876,5847
+Detroit,MI,742,5674
+Nashville,TN,830,2116
+Atlanta,GA,702,4506
+Cincinnatti,OH,695,4805
+Cleveland,OH,749,2845
+Tampa,FL,980,3496
+Orlando,FL,715,5210
+Miami,FL,723,4514
+Baltimore,MD,715,1908
+Philadelphia,PA,717,4342
+New York,NY,743,8577
+Europe,not applicable,400,800

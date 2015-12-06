@@ -1,0 +1,10 @@
+<div class="chart-controller">
+  <h3>Sort By:</h3>
+  <div class='button-wrapper'>
+    <button ng-click="sort('city')" autofocus>city</button>
+    <button ng-click="sort('low')">min</button>
+    <button ng-click="sort('high')">max</button>
+    <button ng-click="sort('width')">width</button>
+  </div>
+</div>
+<div class="chart-graph" data="barData"></div>
