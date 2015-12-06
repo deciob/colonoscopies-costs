@@ -25,14 +25,15 @@
           //barBackground: true, //BUG!!!!
           stacked: true,
           invertOrientation: true,
-          margin: {top: 20, right: 10, bottom: 40, left: 140},
+          margin: {top: 20, right: 10, bottom: 50, left: 140},
           yOffset: 2,
           barClassSetter: function(d) {
             if (d[0] == 'Europe') {
               return 'eu';
             }
             return "";
-          }
+          },
+          xAxisLabel: {text: 'US $'},
         };
 
         d3.entries(
@@ -51,7 +52,7 @@
         var setDimensions = function(callChart) {
           var dim = getDimensions();
           chart.width(dim.width).height(dim.height);
-          chart.yAxis(d3.svg.axis().ticks(4).tickSize(-(dim.height-60), 0, 0));
+          chart.yAxis(d3.svg.axis().ticks(4).tickSize(-(dim.height-70), 0, 0));
           if (callChart) {
             scope.sort('city');
             chartContainer.data([data]).call(chart);
